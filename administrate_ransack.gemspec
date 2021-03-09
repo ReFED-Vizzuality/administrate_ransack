@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir['{app,config,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
-  spec.add_runtime_dependency 'administrate', '~> 0.15.0'
+  spec.add_runtime_dependency 'administrate', '>= 0.14.0'
   spec.add_runtime_dependency 'ransack', '~> 2.4.2'
 
   spec.add_development_dependency 'activestorage', '~> 6.1.3'
